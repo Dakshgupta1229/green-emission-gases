@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    background-image: url(background\ image\ for\ che\ website.jpg);
+    background-repeat: none;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    border: 2px solid grey;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    padding: 22px;
+}
+
+a {
+    padding: 56px;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+#logo {
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+}
+
+a:hover {
+    color: rgb(138, 250, 10);
+    text-decoration: solid;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+pre.heading {
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 19px;
+    font-stretch: expanded;
+    color: #68b020;
+}
+.container1{
+    width: 100vw;
+    color: white;
+    font-style: oblique;
+    overflow: hidden;
+    min-height: calc(100vh - 68px - 20px);
+
+
+}
+
+
+header nav{
+    width: 100vw;
+}
+
+.firstimage{
+    display: flex;
+    flex-wrap: wrap;
+}
+.firstimage img{
+    border: 5px solid yellow;
+    border-radius: 40px;
+}
+
+.secondimage{
+    display: flex;
+    flex-wrap: wrap;
+}
+.secondimage img{
+    border: 5px solid yellow;
+    border-radius: 40px;
+}
+
+.container2{
+    background-color: black;
+}
+
+.thirdimage{
+    display: flex;
+    flex-wrap: wrap;
+}
+.thirdimage img{
+    border: 5px solid yellow;
+    border-radius: 40px;
+}
+footer{
+    border: 4px solid black;
+    background-color: yellow;
+}
+.center{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+
+}
+h2{
+    font-weight: bold;
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 33px;
+}
+.style{
+    font-size: 27px;
+}
+
+.last{
+    background-image: url(blur\ filter\ 2.jpg);
+    background-repeat: none;
+    background-size: cover;
+    /* backdrop-filter: 2px white; */
+}
